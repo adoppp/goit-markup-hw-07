@@ -56,6 +56,10 @@
             </li>
           </ul>
         </address>
+
+        <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+          <img src="./images/vector-gamburger.jpg" alt="button">
+        </button>
       </div>
     </header>
 
@@ -507,7 +511,74 @@
       </div>
     </footer>
 
+    <div class="burger-menu is-open js-menu-container" id="mobile-menu">
+      <button class="menu-toggle close-phone-nav js-close-menu" data-modal-close>
+        <svg class="close-svg close-svg-n">
+          <use href="./images/icons.svg#icon-close-black-18dp"></use>
+        </svg>
+      </button>
+      <nav class="phone-nav">
+        <ul class="phone-list-nav">
+          <li class="li-nav">
+            <a href="./index.html" class="links">Studio</a>
+          </li>
+          <li class="li-nav">
+            <a href="./portfolio.html" class="links">Portfolio</a>
+          </li>
+          <li class="li-nav">
+            <a href="#" class="links">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <address class="ad">
+        <ul class="cont-item">
+          <li class="address-phone">
+            <a href="tel:+110001111111" class="contact"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li class="address-phone-e">
+            <a href="mailto:info@devstudio.com" class="contact"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+      </address>
+        <ul class="list-icon-n">
+          <li class="list-item">
+            <a href="#" class="list-item-icon-n">
+              <svg class="links-soc-cmd-n">
+                <use href="./images/icons.svg#icon-instagramwhite"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="list-item">
+            <a href="#" class="list-item-icon-n">
+              <svg class="links-soc-cmd-n">
+                <use href="./images/icons.svg#icon-twitterwhite"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="list-item">
+            <a href="#" class="list-item-icon-n">
+              <svg class="links-soc-cmd-n">
+                <use href="./images/icons.svg#icon-facebookwhite"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="list-item">
+            <a href="#" class="list-item-icon-n">
+              <svg class="links-soc-cmd-n">
+                <use href="./images/icons.svg#icon-linkedinwhite"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+    </div>
+
+
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
 
