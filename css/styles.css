@@ -1392,6 +1392,26 @@ justify-content: space-around; */
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/dark-bg-428x432.jpg);
     }
 
+    .container-buttons {
+        width: 100vw;
+        padding-top: 48px;
+    }
+
+    .buttons-list-portfolio {
+        justify-content: flex-start;
+        margin-bottom: 48px;
+        flex-wrap: wrap;
+        width: 436px;
+    }
+
+    .button-portfolio {
+        margin-bottom: 16px;
+    }
+
+    .list-set-item {
+        margin-right: 0;
+    }
+
 }
 
 @media (min-device-pixel-ratio: 2),
