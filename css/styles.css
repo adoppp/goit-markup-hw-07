@@ -1258,8 +1258,6 @@ justify-content: space-around; */
     .menu-toggle {
         background-color: #FFFFFF;
         border: 0px;
-        width: 32px;
-        height: 32px;
         transition-property: cursor;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
