@@ -1074,6 +1074,10 @@ justify-content: space-around; */
         width: 100vw;
     }
 
+    .header-bottom {
+        width: 100vw;
+    }
+
     .list-nav {
         display: none;
     }
