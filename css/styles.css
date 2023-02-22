@@ -1058,24 +1058,20 @@ justify-content: space-around; */
 }
 
 @media screen and ( max-width: 768px ) {
-    body {
-        max-width: 428px;
-    }
-
-    main {
-        max-width: 428px;
+    
+    html, body {
+        overflow-x: hidden;
     }
 
     .header-container {
         width: 428px;
         margin-left: 0;
-        margin-right: auto;
         justify-content: space-between;
         align-items: center;
-    }
-
-    .header-bottom {
-        width: 428px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-right: 0;
+        width: 100vw;
     }
 
     .list-nav {
@@ -1087,7 +1083,6 @@ justify-content: space-around; */
     }
 
     .containerone {
-        max-width: 428px;
         padding: 112px 0;
     }
 
