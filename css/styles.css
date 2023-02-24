@@ -1613,7 +1613,33 @@ justify-content: space-around; */
         padding-top: 0;
         padding-bottom: 0;
     }
-}
+
+    .container-buttons {
+        width: 100%;
+        padding-top: 64px;
+    }
+
+    .buttons-list-portfolio {
+        margin-bottom: 64px;
+    }
+
+    .list-set-item {
+        margin-bottom: 72px;
+        margin-right: 0;
+    }
+
+    .list-set-item:nth-child(odd) {
+        margin-right: 24px;
+    }
+
+    .list-set-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .list-set {
+        padding-bottom: 96px;
+        justify-content: flex-start;
+    }
 }
 
 @media (min-device-pixel-ratio: 2),
