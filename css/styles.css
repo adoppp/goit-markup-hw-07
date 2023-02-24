@@ -1434,7 +1434,7 @@ justify-content: space-around; */
         }
        }
 
-@media screen and ( min-width: 769px) and ( max-width: 1440px) {
+@media screen and ( min-width: 769px) and ( max-width: 1439px) {
     body {
         overflow-x: hidden;
     }
@@ -1515,6 +1515,7 @@ justify-content: space-around; */
 
     .ourgoals {
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .photos {
@@ -1621,5 +1622,29 @@ justify-content: space-around; */
        (min-resolution: 2dppx) {
         .containerone {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg-tablet@2.jpg);
+        }
+       }
+
+
+@media screen and ( min-width: 1440px) {
+    .menu-toggle {
+        display: none;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    .containerone {
+        max-width: 100%;
+    }
+}
+
+@media (min-device-pixel-ratio: 2),
+       (-webkit-min-device-pixel-ratio: 2), 
+       (min-resolution: 192dpi), 
+       (min-resolution: 2dppx) {
+        .containerone {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bck-pc@2.jpg);
         }
        }
